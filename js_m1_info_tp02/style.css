@@ -1,0 +1,107 @@
+#canvas {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    border: 2px dashed black;
+    z-index:1;
+}
+
+.object {
+    position: absolute;
+    z-index:2;
+    background-color: black;
+}
+
+#gridcol{
+	display: grid;
+	width : 100%;
+	grid-template-columns: 18vw 75vw;
+}
+
+.bulle{
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	background-color: #222222cc;
+	border-radius: 15px;
+	padding: 0.7em;
+	color: #ffffff;
+	font-size: 1.25em;
+}
+
+#instructions{
+	margin-top: 3vw;
+	margin-bottom: 1vw;
+	margin-left: 7vw;
+	margin-right: 7vw;
+	background-color: #222222cc;
+	border-radius: 15px;
+	padding: 0.7em;
+	color: #ffffff;
+	font-size: 2em;
+}
+
+#instruction:hover{
+	background-color: #222222dd;
+	transition: background-color 0.2s linear;
+}
+
+h2{
+    text-align: center;
+}
+
+#gridcolaccueil{
+	display: grid;
+	width : 100%;
+	grid-template-columns: 90vw 10vw;
+}
+
+#shortdescribe{
+	width: 15vw;
+	text-decoration-line: underline;
+	font-size: 1.1vw;
+	color: #ffffff;
+	margin-left: 0vw;
+	margin-right: 30vw;
+	background-color: #222222aa;
+	border-radius: 1.5vw;
+	padding: 1vw;
+}
+
+#wink{
+	width: 5vw;
+    height: 10vh;
+    margin-top: 2vw;
+	margin-left: 3vw;
+}
+
+#titre{
+	text-align: center;
+	font-size: 5em;
+	background-color: #222222af;
+	border-radius: 1em;
+	color: #ffffff;
+	margin: 0em 25vw 0em 25vw;
+}
+
+input{
+	width: 200px;
+	font-size: 16px;
+  	border: none;
+	border-radius: 5px;
+	text-align: center;	
+    padding: 16px 30px;
+    display: block;
+
+margin: 0 auto;
+}
+
+input:hover, input:hover{
+	background-color: black;
+  	color: white;
+}
+
+#ancienScore{
+    text-align: center;
+}

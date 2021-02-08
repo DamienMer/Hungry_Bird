@@ -1,0 +1,234 @@
+[
+  {
+    "nom": "niveau1",
+    "width": 1200,
+    "height": 600,
+    "origine" : [200, 420],
+    "obstacles" : [
+      {
+        "x" : 450, 
+        "y" : 40, 
+        "width" : 40,
+        "height" : 100,
+        "masse" : 5,
+        "destructible" : false,
+        "pvmax" : 1000,
+        "pv" : 1000 
+      }
+    ],
+    "cibles" : [
+      {
+        "x" : 500, 
+        "y" : 40, 
+        "width" : 30,
+        "height" : 30,
+        "masse" : 1,
+        "pvmax" : 20,
+        "pv" : 20 
+      }
+    ],
+    "murs" : []
+  },
+  {
+    "nom": "niveau2",
+    "width": 1200,
+    "height": 600,
+    "origine" : [200, 420],
+    "obstacles" : [
+      {
+        "x" : 600, 
+        "y" : 100, 
+        "width" : 40,
+        "height" : 100,
+        "masse" : 5,
+        "destructible" : false,
+        "pvmax" : 1000,
+        "pv" : 1000 
+      },
+      {
+        "x" : 400, 
+        "y" : 100, 
+        "width" : 40,
+        "height" : 150,
+        "masse" : 5,
+        "destructible" : true,
+        "pvmax" : 30,
+        "pv" : 30 
+      },
+      {
+        "x" : 550, 
+        "y" : 150, 
+        "width" : 40,
+        "height" : 40,
+        "masse" : 5,
+        "destructible" : false,
+        "pvmax" : 1000,
+        "pv" : 1000 
+      }
+
+    ],
+    "cibles" : [
+      {
+        "x" : 600, 
+        "y" : 40, 
+        "width" : 30,
+        "height" : 30,
+        "masse" : 1,
+        "pvmax" : 20,
+        "pv" : 20 
+      },
+      {
+        "x" : 650, 
+        "y" : 40, 
+        "width" : 30,
+        "height" : 30,
+        "masse" : 1,
+        "pvmax" : 20,
+        "pv" : 20 
+      }
+    ],
+    "murs" : [
+      {
+        "x" : 750, 
+        "y" : 100, 
+        "width" : 100,
+        "height" : 30,
+        "elasticite" : 0.5,
+        "movableXY" : [true, true],
+        "mouvement" : [100, 100, 600, 300],
+        "directionDroiteBas" : [true, true]
+      },
+      {
+        "x" : 150, 
+        "y" : 100, 
+        "width" : 100,
+        "height" : 30,
+        "elasticite" : 0.5,
+        "movableXY" : [true, true],
+        "mouvement" : [100, 100, 600, 300],
+        "directionDroiteBas" : [true, true]
+      },
+      {
+        "x" : 400, 
+        "y" : 500, 
+        "width" : 600,
+        "height" : 20,
+        "elasticite" : 0.1,
+        "movableXY" : [false, false],
+        "mouvement" : [0, 0, 0, 0],
+        "directionDroiteBas" : [true, true]
+      }
+    ]
+  },
+  {
+    "nom": "niveau2",
+    "width": 1200,
+    "height": 600,
+    "origine" : [200, 420],
+    "obstacles" : [
+      {
+        "x" : 600, 
+        "y" : 100, 
+        "width" : 40,
+        "height" : 100,
+        "masse" : 5,
+        "destructible" : false,
+        "pvmax" : 1000,
+        "pv" : 1000 
+      },
+      {
+        "x" : 400, 
+        "y" : 100, 
+        "width" : 40,
+        "height" : 150,
+        "masse" : 5,
+        "destructible" : true,
+        "pvmax" : 30,
+        "pv" : 30 
+      },
+      {
+        "x" : 550, 
+        "y" : 150, 
+        "width" : 40,
+        "height" : 40,
+        "masse" : 5,
+        "destructible" : false,
+        "pvmax" : 1000,
+        "pv" : 1000 
+      }
+
+    ],
+    "cibles" : [
+      {
+        "x" : 600, 
+        "y" : 40, 
+        "width" : 30,
+        "height" : 30,
+        "masse" : 1,
+        "pvmax" : 20,
+        "pv" : 20 
+      },
+      {
+        "x" : 650, 
+        "y" : 40, 
+        "width" : 30,
+        "height" : 30,
+        "masse" : 1,
+        "pvmax" : 20,
+        "pv" : 20
+      }
+    ],
+    "murs" : [
+      {
+        "x" : 750, 
+        "y" : 100, 
+        "width" : 100,
+        "height" : 30,
+        "elasticite" : 0.5,
+        "movableXY" : [true, true],
+        "mouvement" : [100, 100, 600, 300],
+        "directionDroiteBas" : [true, true]
+      },
+      {
+        "x" : 150, 
+        "y" : 100, 
+        "width" : 100,
+        "height" : 30,
+        "elasticite" : 0.5,
+        "movableXY" : [true, true],
+        "mouvement" : [100, 100, 600, 300],
+        "directionDroiteBas" : [true, true]
+      },
+      {
+        "x" : 400, 
+        "y" : 500, 
+        "width" : 600,
+        "height" : 20,
+        "elasticite" : 0.1,
+        "movableXY" : [false, false],
+        "mouvement" : [0, 0, 0, 0],
+        "directionDroiteBas" : [true, true]
+      },
+      {
+        "x" : 1160, 
+        "y" : 20, 
+        "width" : 20,
+        "height" : 560,
+        "elasticite" : 2,
+        "movableXY" : [false, false],
+        "mouvement" : [0, 0, 0, 0],
+        "directionDroiteBas" : [true, true]
+      },
+      {
+        "x" : 300, 
+        "y" : 570, 
+        "width" : 800,
+        "height" : 10,
+        "elasticite" : 1.5,
+        "movableXY" : [false, false],
+        "mouvement" : [0, 0, 0, 0],
+        "directionDroiteBas" : [true, true]
+      }
+    ]
+  }
+]
